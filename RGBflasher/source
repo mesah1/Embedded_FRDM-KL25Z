@@ -33,7 +33,7 @@
  * @brief   Application entry point.
  */
 #include "MKL25Z4.h"
-/* TODO: insert other include files here. */
+/* Time delay function */
 void Delay(volatile unsigned int time){
 	while(time--){
 		;
